@@ -92,7 +92,6 @@ li {
   font-weight: bold;
 }
 
-/* --- Dark Mode --- */
 body.dark-mode {
   background: #121212;
   color: #eee;
@@ -125,12 +124,10 @@ body.dark-mode button:hover {
   background-color: #5e57c4;
 }
 
-/* Ícone do modo escuro fica cinza */
 body.dark-mode #darkModeIcon {
   color: #bbb;
 }
 
-/* Botão flutuante do modo escuro */
 #darkModeToggle {
   position: fixed;
   top: 20px;
@@ -150,7 +147,7 @@ body.dark-mode #darkModeIcon {
 }
 
 body.dark-mode #darkModeToggle {
-  background: white; /* botão fica branco no dark mode */
+  background: white; 
 }
 
 #darkModeToggle:hover {

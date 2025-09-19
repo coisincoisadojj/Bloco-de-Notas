@@ -8,7 +8,7 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Para ícones -->
 </head>
 <body>
-  <!-- Botão flutuante de Modo Escuro/Luz -->
+
   <div id="darkModeToggle">
     <i id="darkModeIcon" class="fas fa-moon"></i>
   </div>
@@ -16,7 +16,7 @@
   <div class="container">
     <h1>Lista de Tarefas</h1>
 
-    <!-- Formulário -->
+
     <div class="form">
       <input id="titulo" placeholder="Título da tarefa">
       <input id="descricao" placeholder="Descrição">
@@ -28,7 +28,7 @@
       <button onclick="criarTarefa()">Adicionar</button>
     </div>
 
-    <!-- Filtros -->
+
     <div class="filtros">
       <select id="filtroStatus" onchange="carregarTarefas()">
         <option value="">Todos os status</option>
@@ -44,13 +44,11 @@
       </select>
     </div>
 
-    <!-- Contador -->
     <div class="contador">
       <span id="pendentes">Pendentes: 0</span> |
       <span id="concluidas">Concluídas: 0</span>
     </div>
 
-    <!-- Lista de tarefas -->
     <ul id="tarefas"></ul>
 
     <button onclick="exportarJSON()">Exportar JSON</button>

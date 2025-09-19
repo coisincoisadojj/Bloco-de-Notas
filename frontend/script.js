@@ -88,7 +88,6 @@ async function exportarJSON() {
   window.open("http://localhost:5000/export", "_blank");
 }
 
-// --- Modo Escuro com Sol/Lua ---
 const darkModeToggle = document.getElementById("darkModeToggle");
 const darkModeIcon = document.getElementById("darkModeIcon");
 
