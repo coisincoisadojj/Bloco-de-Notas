@@ -3,7 +3,8 @@
 ## Rodando o Projeto
 
 1. Clone o repositório:
-git clone <URL_DO_REPOSITORIO>
+git clone Bloco-de-Notas
+code Bloco-de-notas
 
 2. Backend:
    - Entre na pasta do backend:
@@ -13,15 +14,11 @@ git clone <URL_DO_REPOSITORIO>
    - Configure a conexão com o MongoDB no arquivo `server.js`. Exemplo de URI:
      mongodb+srv://usuario:senha@cluster0.mongodb.net/nome_do_banco?retryWrites=true&w=majority
    - Inicie o backend:
-     npm start
+     cd backend
+     node server.js
 
 3. Frontend:
-   - Em outra aba do terminal, entre na pasta do frontend:
-     cd ../frontend
-   - Instale as dependências (se houver):
-     npm install
-   - Abra o arquivo `index.html` no navegador ou rode com um servidor local:
-     http://localhost:3000 (ou abrindo o HTML diretamente)
+   - Abra o arquivo `index.html` utilizando o plugin live server
 
 4. Acesse a aplicação no navegador e utilize normalmente a lista de tarefas.
 
